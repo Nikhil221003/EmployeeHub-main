@@ -1,4 +1,4 @@
-# ---------------- This Is Made By Aditya Bobade ----------------  #
+# ---------------- This Is Made By Nikhil Gathade ----------------  #
 
 import tkinter as tk
 from tkinter import Toplevel, messagebox, ttk, Button, CENTER, Tk, Label, Entry, StringVar, filedialog
@@ -117,7 +117,7 @@ def show_salary():
 
     # Load and set background image
     try:
-        image = Image.open(r"C:\Aditya's Projects\EmployeeHub\assets\bg2.png")
+        image = Image.open(r"C:\Users\Hp\Downloads\EmployeeHub-main\EmployeeHub-main\assets\bg2.png")
         image = image.resize((1920, 992), Image.Resampling.LANCZOS)
         bg_image = ImageTk.PhotoImage(image)
         bg_label = Label(win2, image=bg_image)
@@ -580,7 +580,7 @@ win.title("Employee Management System")
 
 # Background image — wrapped in try/except so app still runs if image is missing
 try:
-    image = Image.open(r"C:\Aditya's Projects\EmployeeHub\assets\bg.png")
+    image = Image.open(r"C:\Users\Hp\Downloads\EmployeeHub-main\EmployeeHub-main\assets\bg.png")
     image = image.resize((1920, 1080), Image.Resampling.LANCZOS)
     bg_image = ImageTk.PhotoImage(image)
     bg_label = Label(win, image=bg_image)
@@ -591,7 +591,7 @@ except Exception:
     # dummy label so bg_label.lower() below doesn't crash
     bg_label = Label(win)
 
-# ---------------- This Is Made By Aditya Bobade ----------------  #
+# ---------------- This Is Made By Nikhil Gathade ----------------  #
 
 # Main Heading Label
 l0 = Label(
@@ -851,5 +851,5 @@ win.state('zoomed')
 bg_label.lower()
 win.mainloop()
 
-# ---------------- This Is Made By Aditya Bobade ----------------  #
+# ---------------- This Is Made By Nikhil Gathade ----------------  #
 # All Rights Reserved

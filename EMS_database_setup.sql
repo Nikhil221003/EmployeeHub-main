@@ -1,6 +1,6 @@
 -- ================================================================
 --  Employee Management System — Database Setup Script
---  Author : Aditya Bobade
+--  Author : Nikhil Gathade
 --  Run this script once in MySQL before starting the application.
 -- ================================================================
 
@@ -48,7 +48,7 @@ SELECT * FROM employees;
 
 -- Insert a sample employee
 INSERT INTO employees (emp_id, emp_name, mob_no, emp_dept, emp_salary)
-VALUES (101, 'Aditya Bobade', '9876543210', 'IT', 75000.00);
+VALUES (101, 'Nikhil Gathade', '9876543210', 'IT', 75000.00);
 
 -- Update mobile number for a specific employee
 UPDATE employees

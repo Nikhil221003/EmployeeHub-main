@@ -1,6 +1,6 @@
 # 🗂️ Employee Management System (EMS)
 
-> **Author:** Aditya Bobade &nbsp;|&nbsp; **Language:** Python 3.8+ &nbsp;|&nbsp; **Database:** MySQL &nbsp;|&nbsp; **License:** Educational Use Only
+> **Author:** Nikhil Gathade &nbsp;|&nbsp; **Language:** Python 3.8+ &nbsp;|&nbsp; **Database:** MySQL &nbsp;|&nbsp; **License:** Educational Use Only
 
 ---
 
@@ -111,7 +111,7 @@ All data is stored persistently in a **MySQL database**, meaning records are sav
 ## 📁 Project Structure
 
 ```
-C:\Aditya's Projects\EmployeeHub\
+C:\Users\Hp\Downloads\EmployeeHub-main\EmployeeHub-main
 │
 ├── EMS_project.py           →  Main application — all GUI, logic, and database operations
 ├── EMS_pymysql_setup.py     →  One-time setup script — creates the "employees" table in MySQL
@@ -189,7 +189,7 @@ CREATE DATABASE IF NOT EXISTS ems_db
 Open **Windows PowerShell**, navigate to the project folder and run:
 
 ```powershell
-cd "C:\Aditya's Projects\EmployeeHub"
+cd "C:\Users\Hp\Downloads\EmployeeHub-main\EmployeeHub-main"
 python EMS_pymysql_setup.py
 ```
 
@@ -226,8 +226,8 @@ Update the `password` value to match whatever password you set during MySQL inst
 The background images are already placed in the correct location:
 
 ```
-C:\Aditya's Projects\EmployeeHub\assets\bg.png
-C:\Aditya's Projects\EmployeeHub\assets\bg2.png
+c:\Users\Hp\Downloads\EmployeeHub-main\EmployeeHub-main\assets\bg.png
+c:\Users\Hp\Downloads\EmployeeHub-main\EmployeeHub-main\assets\bg2.png
 ```
 
 Make sure the image paths referenced inside `EMS_project.py` point to this `assets\` folder.
@@ -240,7 +240,7 @@ If the images are missing or the path is wrong, the app will automatically fall 
 Open **Windows PowerShell**, navigate to the project folder, and run the main file:
 
 ```powershell
-cd "C:\Aditya's Projects\EmployeeHub"
+cd "c:\Users\Hp\Downloads\EmployeeHub-main\EmployeeHub-main"
 python EMS_project.py
 ```
 
@@ -317,7 +317,7 @@ Your import files **must** have these exact column header names (spelling and ca
 
 | ID  | Name          | Mobile No  | Department | Salary |
 |-----|---------------|------------|------------|--------|
-| 101 | Aditya Bobade | 9876543210 | IT         | 75000  |
+| 101 | Nikhil Gathade| 9876543210 | IT         | 75000  |
 | 102 | Rahul Sharma  | 8765432109 | HR         | 55000  |
 | 103 | Priya Patil   | 7654321098 | Finance    | 62000  |
 
@@ -385,15 +385,15 @@ If you have any questions, suggestions, or run into any issues with this project
 
 | Platform    | Link                                                                          |
 |-------------|-------------------------------------------------------------------------------|
-| 💼 LinkedIn  | [linkedin.com/in/adityabobade](https://linkedin.com/in/adityabobade)          |
-| 📧 Email     | [bobade1436@gmail.com](mailto:bobade1436@gmail.com)                           |
+| 💼 LinkedIn  | [linkedin.com/in//nikhil-gathade-0a8395239](https://linkedin.com/in//nikhil-gathade-0a8395239)          |
+| 📧 Email     | [nikhilgathade59@gmail.com](mailto:nikhilgathade59@gmail.com)                           |
 
 ---
 
 ## 📜 License
 
 ```
-Copyright © 2025 Aditya Bobade
+Copyright © 2025 Nikhil Gathade
 
 This project is intended for EDUCATIONAL PURPOSES ONLY.
 You may use, modify, and share this project for learning or personal research.
